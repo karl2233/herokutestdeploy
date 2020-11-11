@@ -70,10 +70,11 @@
 						<plugin>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-maven-plugin</artifactId>
+			<version>5.2.4</version>
 			<configuration>
-			<url>jdbc:mysql://localhost:3306/new?useTimezone=true&amp;serverTimezone=UTC</url>
-			<user>root</user>
-			<password>123456</password>
+			<url>jdbc:mysql://us-cdbr-east-02.cleardb.com:3306/heroku_9437b77e647aa27?useTimezone=true&amp;serverTimezone=UTC</url>
+			<user>bb84e09ea80ec4</user>
+			<password>4c153110</password>
 			</configuration>
 			<dependencies>
 			<dependency>
