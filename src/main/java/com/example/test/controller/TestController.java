@@ -15,7 +15,7 @@ import com.example.test.util.Querrey;
 import com.example.test.util.karlelements;
 
 @RestController
-@RequestMapping("/testcontrol")
+@RequestMapping("testcontrol")
 public class TestController {
 	
 	@Autowired
